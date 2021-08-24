@@ -3,23 +3,23 @@
 >姓名|林海海  
 >性别|男  
 >出生日期|1990年
----
+***
 ### 教育信息
 >西北工业大学
----
+***
 ### 工作经历
 >耸智信息科技  
 >softtek
----
+***
 ### 项目经历
 >高铁一号线(代缴社保公积金、代发工资业务)
----
+***
 ### 相关技能
 >netty
----
+***
 ### 其他
 >pmp培训
----
+***
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
