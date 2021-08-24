@@ -1,8 +1,20 @@
-## Welcome to GitHub Pages
+## Welcome to Linhaihai Pages
+### 个人信息
 
-You can use the [editor on GitHub](https://github.com/linhaihai/linhaihai.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+| a | b | c |
+|---|---|---|
+| 列宽 = 10% 行宽| 列宽 = 30% 行宽 |列宽 = 60% 行宽 |
+---
+### 教育信息
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+---
+### 工作经历
+---
+### 项目经历
+---
+### 相关技能
+---
+
 
 ### Markdown
 
@@ -35,3 +47,10 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+
+
+
+
+
+
+
