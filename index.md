@@ -1,21 +1,44 @@
 ## Welcome to Linhaihai Pages
 ### 个人信息
 >姓名|林海海  
+>
 >性别|男  
+>
 >出生日期|1990年
+>
+>email|linhaihai0202@126.com
 * * *
 ### 教育信息
 >西北工业大学
 * * *
 ### 工作经历
 >耸智信息科技  
+>
 >softtek
 * * *
 ### 项目经历
+>2017年-今
+>
 >高铁一号线(代缴社保公积金、代发工资业务)
+>
+>2015-2017
+>
+>车险理赔项目
+>
+>2013-2014
+>
+>信用卡营销活动
+>
+>2011-2012
+>
+>网上购物（大货栈）
 * * *
 ### 相关技能
 >netty
+>
+>jvm 
+>
+>juc
 * * *
 ### 其他
 >pmp培训
@@ -54,7 +77,6 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 ### 喜欢的图片
 * * *
 ![my-logo.png](001.jpg "my-logo")
-
 
 
 
