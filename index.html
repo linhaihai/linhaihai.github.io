@@ -1,8 +1,143 @@
-<html>
-<head>
-<title>linhaihai home</title>
-</head>
-<body>
-come to 2323
-</body>
+
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+    <link rel="canonical" href="https://getbootstrap.com/docs/3.4/examples/blog/">
+
+    <title>Blog Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/@bootcss/v3.bootcss.com@1.0.13/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="https://cdn.jsdelivr.net/npm/@bootcss/v3.bootcss.com@1.0.13/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="https://cdn.jsdelivr.net/npm/@bootcss/v3.bootcss.com@1.0.13/examples/blog/blog.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="https://cdn.jsdelivr.net/npm/@bootcss/v3.bootcss.com@1.0.13/assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="https://cdn.jsdelivr.net/npm/@bootcss/v3.bootcss.com@1.0.13/assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    
+
+    <div class="container">
+
+      <div class="blog-header">
+        <h1 class="blog-title">The Linhaihai Blog</h1>
+      </div>
+
+      <div class="row">
+
+        <div class="col-sm-12 blog-main">
+
+          <div class="blog-post">
+            <h2 class="blog-post-title">个人信息</h2>
+            <p class="blog-post-meta"></p>
+			<blockquote>
+              <p><strong>姓名</strong>|林海海</p>
+			  <p><strong>性别</strong>|男 </p>
+			  <p><strong>出生日期</strong>|1990年</p>
+			  <p><strong>email</strong>|linhaihai0202@126.com</p>
+            </blockquote>
+			<hr>
+			
+			<h2 class="blog-post-title">教育信息</h2>
+            <p class="blog-post-meta"></p>
+			<blockquote>
+              <p><strong>西北工业大学</strong></p>
+            </blockquote>
+			<hr>
+			
+			<h2 class="blog-post-title">工作经历</h2>
+            <p class="blog-post-meta"></p>
+			<blockquote>
+			  <p>2017年-今  <strong>softtek</strong></p>
+			  <p>2015-2017  <strong>耸智信息科技  </strong></p>
+			  <p>2013-2014  <strong>诺奇科技</strong></p>
+              <p>2011-2012 <strong>大货栈</strong></p>
+            </blockquote>
+			<hr>
+			
+			<h2 class="blog-post-title">项目经历</h2>
+            <p class="blog-post-meta"></p>
+			<blockquote>
+			  <p>2017年-今  <strong>高铁一号线(代缴社保公积金、代发工资业务)</strong></p>
+			  <p>2015-2017  <strong>车险理赔项目  </strong></p>
+			  <p>2013-2014  <strong>信用卡营销活动</strong></p>
+              <p>2011-2012 <strong>网上购物（大货栈）</strong></p>
+            </blockquote>
+			<hr>
+			
+			<h2 class="blog-post-title">相关技能</h2>
+            <p class="blog-post-meta"></p>
+			<blockquote>
+			  <p>1. spring 启动流程：初始化环境；初始化beanFactory；加载资源annocation xml；读取bean definition；</p>
+              <p>2. java juc；cas synchronized锁；ReentrantLock;ReentrantReadWriteLock;AtomicInteger原子操作；LockSupport；CountDownLunch；CyclicBarrier;Semaphore;ThreadPoolExecutor;ForkJoinPool</p>
+              <p>3. redis 使用场景缓存、数据库(不推荐)、分布式锁、分布式id；持久化；数据类型；实现了CAP理论中的AP</p>
+              <p>4. zookepper 观察者模式+文件系统；使用场景：分布式锁、分布式系统id、配置中心、监控系统是否宕机；实现了CAP理论中的CP；选举机制；数据一致性机制</p>
+              <p>5. nginx 使用场景：静态资源服务器、负载均衡器（7层）、反向代理；配合lua脚本可以实现复杂业务；单体并发2-5万；</p>
+              <p>6. lvs 整合在linux ipvs 模块；负载局衡器（4层）；</p>
+              <p>7. java 类加载过程：classLoader（bootstrap、ext、app、用户自定义）；linking（校验、默认值、解析）；init（成员变量赋初始值并且执行static块）；创建的class对象放到方法区；</p>
+              <p>8. java 类实例化过程：根据class对象创建；分配堆内存；默认值；初始值；</p>
+              <p>9. bio到nio演化：每个客户端请求创建一个线程处理。一个线程接收客户端，另一个线程单独处理客户端，监听通道中发生事件处理没有发生事件则取处理其他业务（非阻塞）。</p>
+              <p>10. jvm内存模型（堆、栈、方法区、本地方法栈、程序计数器）、性能调优、</p>
+              <p>11. mysql 事务、锁、索引、存储引擎、explain、showprofile，</p>
+              <p>12. netty 网络模型 ；核心模块 NioEventLoopGroup NioEventLoop ServerBootstrap NioServerSocketChannel Pipline ChannelHandler  ChannelHandlerContext </p>
+            </blockquote>
+			<hr>
+			
+			<h2 class="blog-post-title">其他</h2>
+            <p class="blog-post-meta"></p>
+			<blockquote>
+              <p><strong>pmp培训</strong></p>
+            </blockquote>
+			<hr>
+
+            
+          </div><!-- /.blog-post -->
+
+
+      
+        </div><!-- /.blog-main -->
+
+        
+
+      </div><!-- /.row -->
+
+    </div><!-- /.container -->
+
+    <footer class="blog-footer">
+      <p>Blog template built for <a href="https://getbootstrap.com/">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+      <p>
+        <a href="#">Back to top</a>
+      </p>
+    </footer>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="https://cdn.jsdelivr.net/npm/@bootcss/v3.bootcss.com@1.0.13/assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="https://cdn.jsdelivr.net/npm/@bootcss/v3.bootcss.com@1.0.13/dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="https://cdn.jsdelivr.net/npm/@bootcss/v3.bootcss.com@1.0.13/assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
 </html>
